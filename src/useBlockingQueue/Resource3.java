@@ -5,7 +5,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 public class Resource3 {
 
-	private BlockingQueue resourceQueue = new LinkedBlockingQueue(10);
+	private BlockingQueue<Integer> resourceQueue = new LinkedBlockingQueue<Integer>(10);
 	/**
 	* 向资源池中添加资源
 	*/

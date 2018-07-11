@@ -1,8 +1,5 @@
 package useBlockingQueue;
 
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
-
 //使用阻塞队列BlockingQueue解决生产者消费者
 public class BlockingQueueConsumerProducer {
 
